@@ -1,4 +1,4 @@
-# Project Name
+# Sportradar Coding Academy - recruitment task
 
 > Outline a brief description of your project.
 > Live demo [_here_](https://www.example.com)
@@ -30,9 +30,10 @@
 
 ## Technologies Used
 
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- React - version 18.2.0
+- Next.js - version 13.1.1
+- Typescript - version 4.9.4
+- TailwindCSS - version 3.2.4
 
 ## Features
 
