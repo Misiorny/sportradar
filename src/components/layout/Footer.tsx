@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../pictures/Sportradar_logo_RGB_white.webp";
+import logo from "../../pictures/Sportradar_logo_RGB_white.webp";
 
 interface FooterProps {
   text: string;
