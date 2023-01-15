@@ -17,10 +17,10 @@ export const Table = () => {
         console.log(response.status);
         return response.json();
       })
-      .then((data) => setSeasonData(JSON.parse(data)))
+      .then((data) => setSeasonData(JSON.stringify(data)))
       .catch((error) => console.error(error));
   }, []);
-  console.log(seasonData);
+  console.log("seasonData", seasonData);
   return (
     <section className="flex flex-col flex-grow pb-6 ">
       <TableTitle tableTitle="Table of results" />
