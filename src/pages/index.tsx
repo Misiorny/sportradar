@@ -3,11 +3,7 @@ import { Footer } from "../components/layout/Footer";
 import { Dashboard } from "../components/Dashboard";
 
 const Home = () => {
-  return (
-    <>
-      <Dashboard tableTitle="table of results" />
-    </>
-  );
+  return <Dashboard />;
 };
 
 export default Home;

@@ -1,17 +1,17 @@
-import Image from "next/image";
-import logo from "../../pictures/Sportradar_logo_RGB_white.webp";
+// import Image from "next/image";
+// import logo from "../../pictures/Sportradar_logo_RGB_white.webp";
 
 interface FooterProps {
-  text: string;
+  footerText: string;
 }
 
-export const Footer = ({ text }: FooterProps) => {
+export const Footer = ({ footerText }: FooterProps) => {
   return (
-    <footer className="bg-main flex flex-col py-4 px-2 content-center">
-      <div className=" flex w-full justify-evenly">
-        <Image src={logo} alt="Sportradar logo" />
-      </div>
-      <p className="text-xl text-center text-complementary ">{text}</p>
+    <footer className="bg-main  py-4 px-2 ">
+      {/*<div className="">*/}
+      {/*  <Image src={logo} alt="Sportradar logo" />*/}
+      {/*</div>*/}
+      <p className="text-xl text-center text-complementary ">{footerText}</p>
     </footer>
   );
 };
