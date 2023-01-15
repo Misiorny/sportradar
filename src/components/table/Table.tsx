@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { TableHeader, TableRow, TableTitle } from "./index";
 
 export const Table = () => {
-  const [seasonData, setSeasonData] = useState({});
+  const [seasonData, setSeasonData] = useState([]);
   useEffect(() => {
     fetch(
       "https://api.sportradar.us/soccer/trial/v4/en/seasons/sr:season:77453/schedules.json?api_key=7gv3rgnu48fkhb9gykdqxfp6",
@@ -17,7 +17,7 @@ export const Table = () => {
         console.log(response.status);
         return response.json();
       })
-      .then((data) => setSeasonData(JSON.stringify(data)))
+      .then((data) => setSeasonData(data))
       .catch((error) => console.error(error));
   }, []);
   console.log("seasonData", seasonData);
