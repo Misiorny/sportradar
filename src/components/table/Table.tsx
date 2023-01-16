@@ -1,5 +1,5 @@
 import { TableHeader, TableRow, TableTitle } from "./index";
-import stepOneData from "../../utils/data";
+import stepOneData from "../../utils/data_step_one";
 
 export const Table = () => {
   console.log(stepOneData);
