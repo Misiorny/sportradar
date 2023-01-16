@@ -1,7 +1,7 @@
 # Sportradar Coding Academy - recruitment task
 
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com)
+> Recruitment task for Sportradar Coding Academy.  
+> Live demo [Sportradar](https://www.example.com)
 > . <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
@@ -21,12 +21,9 @@
 
 ## General Information
 
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+- Main purpose of the project: show my programing skills as candidate to Sportradar Coding Academy.
+- Resolve 5 steps test as recruitment task.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Technologies Used
 
@@ -37,24 +34,26 @@
 
 ## Features
 
-List the ready features here:
-
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Display basic data taken from API. (Step 1) 
+- Display more data taken from API with visualisation of winner, loser and draw. (Step 2) 
+- Display data depending on chosen season. (Step 3) 
+- Create subpage showing information about soccer teams. (Step 4)
+- Create advanced application by my own invention. (Step 5)  
 
 ## Screenshots
 
 ![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+
 
 ## Setup
 
-What are the project requirements/dependencies? Where are they listed? A
-requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+Application created using create-next-app. 
+Project requirements/dependencies are located in package.json file. 
 
-Proceed to describe how to install / setup one's local environment / get started
-with the project.
+Important:
+Run the following command `yarn install`.
+Start application with `yarn dev`
+
 
 ## Usage
 
@@ -65,13 +64,9 @@ Provide various use cases and code examples here.
 
 ## Project Status
 
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
-no longer working on it, provide reasons why.
+Project is: _in progress_ 
 
 ## Room for Improvement
-
-Include areas you believe need improvement / could be improved. Also add TODOs
-for future development.
 
 Room for improvement:
 
@@ -80,24 +75,18 @@ Room for improvement:
 
 To do:
 
-- Feature to be added 1
-- Feature to be added 2
+- Create Step 2 - 5 according to [Features](#features)
+
 
 ## Acknowledgements
 
 Give credit here.
 
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+
+- Many thanks to [@flynerdpl](https://www.flynerd.pl/) - creator of README.md template.
 
 ## Contact
 
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [Misiorny](https://www.facebook.com/AfrykaDzikaMisiornego/) - feel free to contact me!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->

@@ -12,7 +12,6 @@ export const Table = () => {
           {stepOneData.map((e) => (
             <TableRow
               key={e.id - 1}
-              numberOfMatch={e.id}
               teamsPlayed={`${e.teamHome}-${e.teamAway}`}
               result={`${e.home_score}:${e.away_score}`}
             />
