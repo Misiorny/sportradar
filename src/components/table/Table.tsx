@@ -13,7 +13,7 @@ export const Table = () => {
             <TableRow
               key={e.id - 1}
               teamsPlayed={`${e.teamHome}-${e.teamAway}`}
-              result={`${e.home_score}:${e.away_score}`}
+              result={`${e.score}`}
             />
           ))}
         </tbody>
