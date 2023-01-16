@@ -1,6 +1,16 @@
-// https://api.sportradar.us/soccer/trial/v4/en/seasons/sr:season:77453/schedules.json?api_key=7gv3rgnu48fkhb9gykdqxfp6
-// const seasonChoices = "sr:season:77453";
-// const apiKey = "7gv3rgnu48fkhb9gykdqxfp6";
-// const apiUrl = `https://api.sportradar.us/soccer/trial/v4/en/seasons/${seasonChoices}/schedules.json?api_key=${apiKey}`;
-
-export {};
+import data from "../data/dataS1.json";
+function createStepOneData() {
+  const season = data.schedules;
+  const stepOneData = [];
+  for (let i = 0; i < season.length; i++) {
+    stepOneData.push({
+      id: i + 1,
+      teamHome: season[i].sport_event.competitors[0].name,
+      teamAway: season[i].sport_event.competitors[1].name,
+      home_score: season[i].sport_event_status.home_score,
+      away_score: season[i].sport_event_status.away_score,
+    });
+  }
+  return stepOneData;
+}
+export default createStepOneData();
