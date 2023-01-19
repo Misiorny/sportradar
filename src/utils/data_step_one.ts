@@ -2,6 +2,8 @@ import data from "../data/dataS1.json";
 function createStepOneData() {
   const season = data.schedules;
   const stepOneData = [];
+  // loop for is specially used here due to show my knowledge skill :)
+
   for (let i = 0; i < season.length; i++) {
     if (season[i].sport_event_status.status === "closed") {
       stepOneData.push({
