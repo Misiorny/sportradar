@@ -1,5 +1,5 @@
-import { TableHeader, TableRow, TableTitle } from "./index";
-
+import { TableHeader, TableRow, TableTitle, TdCell } from "./index";
+import data from "../../utils/data_step_two";
 export const Table = () => {
   return (
     <section className="flex flex-col flex-grow pb-6 ">
