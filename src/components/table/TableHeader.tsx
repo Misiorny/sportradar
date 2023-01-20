@@ -1,12 +1,11 @@
 import tableHeadNames from "../../data/tableHeadNames";
-import { ThCell } from "./ThCell";
 
 export const TableHeader = () => {
   return (
     <thead>
       <tr>
         {tableHeadNames.stepTwo.map((e) => (
-          <ThCell key={e.id} tableHeaderText={e.headName} />
+          <th key={e.id}>{e.headName}</th>
         ))}
       </tr>
     </thead>
