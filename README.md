@@ -17,7 +17,6 @@
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 
-<!-- * [License](#license) -->
 
 ## General Information
 
@@ -34,8 +33,8 @@
 
 ## Features
 
-- Display basic data taken from API. (Step 1) 
-- Display more data taken from API with visualisation of winner, loser and draw. (Step 2) 
+- Display basic data taken from API. Data downloaded from page.  (Step 1) 
+- Display more data taken from API with visualisation of winner, loser and draw. Data downloaded from page. (Step 2) 
 - Display data depending on chosen season. (Step 3) 
 - Create subpage showing information about soccer teams. (Step 4)
 - Create advanced application by my own invention. (Step 5)  
@@ -70,7 +69,7 @@ Project is: _in progress_
 
 Room for improvement:
 
-- Data should be taken by app not created by CTRL-C,CTRL-V from   [Sportradar](https://developer.sportradar.com/)
+- Data should be taken by app not created by download file .json from   [Sportradar](https://developer.sportradar.com/)
 - As completely non-artistic soul UX/UI should be correct.
 
 
