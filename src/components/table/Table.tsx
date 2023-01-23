@@ -1,4 +1,4 @@
-import { TableHeader, TableRow, TableTitle } from "./index";
+import { TableForm, TableHeader, TableRow, TableTitle } from "./index";
 import { useGames } from "../../utils/useGames";
 
 export const Table = () => {
@@ -10,6 +10,8 @@ export const Table = () => {
   return (
     <section className="flex flex-col flex-grow pb-6 ">
       <TableTitle tableTitle="Table of results" />
+      <TableForm />
+
       <table className=" border mx-auto text-center table-auto  ">
         <TableHeader />
         <tbody>

@@ -4,7 +4,9 @@ interface TableTitleProps {
 export const TableTitle = ({ tableTitle }: TableTitleProps) => {
   return (
     <div className="text-center">
-      <h3 className="mx-auto p-2 my-3 text-xl uppercase">{tableTitle}</h3>
+      <h3 className="mx-auto p-2 my-3 text-3xl uppercase text-main ">
+        {tableTitle}
+      </h3>
     </div>
   );
 };
