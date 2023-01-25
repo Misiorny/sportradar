@@ -15,3 +15,4 @@ export const Layout = ({ children }: LayoutProps) => {
     </main>
   );
 };
+("All teams, all results in one place!");
